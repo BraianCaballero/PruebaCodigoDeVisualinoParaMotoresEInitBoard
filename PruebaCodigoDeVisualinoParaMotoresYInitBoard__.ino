@@ -67,33 +67,4 @@ void girarMotores(int rotation , int SPEED) {
     
 }
 
-/*void probarMotores() {
-  analogWrite(EnA, 200);
-  digitalWrite(In1, HIGH);
-  digitalWrite(In3, LOW);
-  digitalWrite(In2, LOW);
-  digitalWrite(In4, HIGH);
-  analogWrite(EnB, 200);
-  delay(3000);
-  analogWrite(EnA, 0);
-  digitalWrite(In1, LOW);
-  digitalWrite(In3, LOW);
-  digitalWrite(In2, LOW);
-  digitalWrite(In4, LOW);
-  analogWrite(EnB, 0);
-  delay(3000);
-  analogWrite(EnA, 200);
-  digitalWrite(In1, LOW);
-  digitalWrite(In3, HIGH);
-  digitalWrite(In2, HIGH);
-  digitalWrite(In4, LOW);
-  analogWrite(EnB, 200);
-  delay(3000);
-  analogWrite(EnA, 0);
-  digitalWrite(In1, LOW);
-  digitalWrite(In3, LOW);
-  digitalWrite(In2, LOW);
-  digitalWrite(In4, LOW);
-  analogWrite(EnB, 0);
-  delay(3000);
-}*/
+

@@ -100,7 +100,7 @@ void girarMotores(int rotation , int SPEED) {
     
 }
 
-//En este caso es necesario diferenciar los amotores ya que se van a utilizar a programar uno a la vez
+//En este caso es necesario diferenciar los motores ya que se van a utilizar a programar de forma unitaria
 void girarMotor_EnSentido_AVelocidad_(int motor, int sentidoDeGiro, int SPEED) {
   
   //MOTOR0 = EnB, In3, In4
@@ -140,29 +140,3 @@ void girarMotor_EnSentido_AVelocidad_(int motor, int sentidoDeGiro, int SPEED) {
 }  
 
 
-  /*if (sentidoDeGiro == "CLOCKWISE") {
-    digitalWrite(In1, HIGH);
-    digitalWrite(In3, LOW);
-    digitalWrite(In2, LOW);
-    digitalWrite(In4, HIGH);
-  }
-  else if (sentidoDeGiro == "COUNTER_CLOCKWISE") {
-    digitalWrite(In2, HIGH);
-    digitalWrite(In4, LOW);
-    digitalWrite(In1, LOW);
-    digitalWrite(In3, HIGH);
-  } 
-  else if (sentidoDeGiro == "STOP") {
-    digitalWrite(In1, LOW);
-    digitalWrite(In2, LOW);
-    digitalWrite(In3, LOW);
-    digitalWrite(In4, LOW);
-  }
-    
-  if (EnA) {
-    analogWrite(EnA,SPEED);
-  }
-  
-  if (EnB) {
-    analogWrite(EnB, SPEED);
-  }*/
